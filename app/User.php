@@ -3,8 +3,8 @@
 namespace App;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Silber\Bouncer\Database\HasRolesAndAbilities;
 use Illuminate\Notifications\Notifiable;
+use Silber\Bouncer\Database\HasRolesAndAbilities;
 
 class User extends Authenticatable
 {
