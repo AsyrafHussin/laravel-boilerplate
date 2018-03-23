@@ -1,5 +1,5 @@
 # Laravel Boilerplate
-My Laravel Boilerplate
+My Laravel Boilerplate v1
 
 ## Laravel Version
 5.6.12
@@ -12,7 +12,7 @@ My Laravel Boilerplate
 * [SweetAlert2](https://sweetalert2.github.io)
 * [Adminer v4.6.2](https://www.adminer.org)
 * [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
-* Bootstrap 4
+* Bootstrap 3
 * Helpers file
 * Seeder for users and roles
 * Auth - login,login check, logout
