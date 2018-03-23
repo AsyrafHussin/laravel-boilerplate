@@ -12,7 +12,8 @@ My Laravel Boilerplate v1
 * [SweetAlert2](https://sweetalert2.github.io)
 * [Adminer v4.6.2](https://www.adminer.org)
 * [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
-* Bootstrap 3
+* [Bootstrap 3](https://getbootstrap.com/docs/3.3)
+* [Font Awesome 4](https://fontawesome.com/v4.7.0/)
 * Helpers file
 * Seeder for users and roles
 * Auth - login,login check, logout
