@@ -17,7 +17,8 @@ let mix = require('laravel-mix');
         postCss: [ 
             require('autoprefixer'),
             require('cssnano'),
-        ]
+        ],
+        processCssUrls: false
     })
     .browserSync('127.0.0.1:8000')
     .version();
