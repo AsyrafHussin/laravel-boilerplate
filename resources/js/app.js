@@ -3,7 +3,7 @@ import jquery from 'jquery';
 window.jQuery = jquery;
 window.$ = jquery;
 window.jquery = jquery;
-import 'bootstrap';
+import 'bootstrap-sass';
 import swal from 'sweetalert2';
 window.swal = swal;
 
