@@ -11,7 +11,7 @@
         "laravel/tinker": "^1.0",
         "pyaesone17/active-state": "^1.1.4",
         "renatomarinho/laravel-page-speed": "^1.8.8",
-        "silber/bouncer": "v1.0.0-rc.3"
+        "silber/bouncer": "v1.0.0-rc.3`"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
