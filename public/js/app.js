@@ -12821,7 +12821,7 @@ return jQuery;
 
 /***/ }),
 
-/***/ "./resources/assets/js/app.js":
+/***/ "./resources/js/app.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12842,7 +12842,7 @@ jQuery(document).ready(function ($) {
 
 /***/ }),
 
-/***/ "./resources/assets/sass/app.scss":
+/***/ "./resources/sass/app.scss":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -12852,8 +12852,8 @@ jQuery(document).ready(function ($) {
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__("./resources/assets/js/app.js");
-module.exports = __webpack_require__("./resources/assets/sass/app.scss");
+__webpack_require__("./resources/js/app.js");
+module.exports = __webpack_require__("./resources/sass/app.scss");
 
 
 /***/ })
