@@ -16626,27 +16626,20 @@ if (typeof window !== 'undefined' && window.Sweetalert2){  window.Sweetalert2.ve
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__("./node_modules/jquery/dist/jquery.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bootstrap_sass__ = __webpack_require__("./node_modules/bootstrap-sass/assets/javascripts/bootstrap.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bootstrap_sass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_bootstrap_sass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_sweetalert2__ = __webpack_require__("./node_modules/sweetalert2/dist/sweetalert2.all.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_sweetalert2___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_sweetalert2__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modules_scroll_js__ = __webpack_require__("./resources/js/modules/scroll.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_sweetalert2__ = __webpack_require__("./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_sweetalert2___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_sweetalert2__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modules_scroll_js__ = __webpack_require__("./resources/js/modules/scroll.js");
 // Global Import
+window.jQuery = window.$ = __webpack_require__("./node_modules/jquery/dist/jquery.js");
+var bootstrap = __webpack_require__("./node_modules/bootstrap-sass/assets/javascripts/bootstrap.js");
 
-window.jQuery = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
-window.$ = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
-window.jquery = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
-
-
-window.swal = __WEBPACK_IMPORTED_MODULE_2_sweetalert2___default.a;
+window.swal = __WEBPACK_IMPORTED_MODULE_0_sweetalert2___default.a;
 
 // import module
 
 
 $(document).ready(function () {
-  __WEBPACK_IMPORTED_MODULE_3__modules_scroll_js__["a" /* default */].init();
+  __WEBPACK_IMPORTED_MODULE_1__modules_scroll_js__["a" /* default */].init();
 });
 
 /***/ }),
