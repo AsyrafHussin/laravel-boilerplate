@@ -1,11 +1,13 @@
+// Global Import
 import jquery from 'jquery';
-
 window.jQuery = jquery;
 window.$ = jquery;
 window.jquery = jquery;
+import 'bootstrap';
 
-require('bootstrap-sass');
+// import module
+import Scroll from './modules/scroll.js';
 
-jQuery(document).ready(function($) {
-   // add script here
+$(document).ready(function() {
+  Scroll.init();
 });
